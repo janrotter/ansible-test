@@ -1,0 +1,9 @@
+---
+- name: Play
+  hosts: localhost
+  connection: local
+  vars:
+    conditional_variable: False
+  roles:
+    - testrole
+

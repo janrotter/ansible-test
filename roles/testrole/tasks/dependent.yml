@@ -1,0 +1,6 @@
+---
+- name: Hello from dependent
+  debug: msg=hello
+
+- name: No var defined
+  debug: msg="{{ some_undefined }}"
